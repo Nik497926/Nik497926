@@ -1,6 +1,6 @@
-## Hi there 👋
+<!--## Hi there 👋
 
-<!--
+
 **Nik497926/Nik497926** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -14,8 +14,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Привет+пупсик,+я+ещё+не+закончил+тут+оформлять)](https://git.io/typing-svg)
+<!-- BLOG-POST-LIST:START -->
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Привет+пупсик,+я+ещё+не+закончил+тут+оформлять)](https://git.io/typing-svg)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nik497926)](https://github.com/anuraghazra/github-readme-stats)
 
+<!-- BLOG-POST-LIST:END -->
