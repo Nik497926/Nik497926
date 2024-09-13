@@ -46,7 +46,9 @@ Hi 👋 My name is Nikita
 Web Developer and Designer
 --------------------------
 
-* 🚀 I'm currently working on [UnicoreCMS 2.0](https://demonicparadise.online)
+* 🚀В настоящее время работаю над: [UnicoreCMS 2.0](https://demonicparadise.online)
+
+### Услуги
 * ⚡ Установка UnicoreCMS - 2000
 * ⚡ Модуль для UnicoreCMS: "Заявка в персонал" - 2500
 * ⚡ Модуль для UnicoreCMS: "Команда проекта" - 3000
