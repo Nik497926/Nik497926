@@ -56,6 +56,7 @@ Web Developer and Designer
 * ⚡ Модуль для UnicoreCMS: "FIX Отображения скинов для GMLauncher" - 1500
 * ⚡ Модуль для UnicoreCMS: "WebHOOK Discord(Уведомление о заявках в персонал" - 1300
 * ⚡ Модуль для UnicoreCMS: "API для форума IPS" - 2500
+* ⚡ ~Форум внутри UnicoreCMS -~
 * ⚡ ~Модуль для UnicoreCMS: "Модуль скринов с сервера" -~
 * ⚡ ~Модуль для UnicoreCMS: "Страница Wipe с управлением через адмику" -~
 * ⚡ ~Модуль для UnicoreCMS: "Я застрял" -~
