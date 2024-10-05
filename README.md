@@ -65,6 +65,7 @@ Web Developer and Designer
 * ⚡ ~Модуль для UnicoreCMS: "Привязка соц. сетей" -~
 * ⚡ ~Модуль для UnicoreCMS: "Бот для дс" -~
 * ⚡ ~Модуль для UnicoreCMS: "Модуль на кейсы" -~
+* ⚡ ~Модернизация Frontend под Vue + React -~
 
 
 ### Skills
