@@ -52,6 +52,7 @@ Web Developer and Designer
 * ⚡ Модуль для UnicoreCMS: "Пополнение через ЮКасса" - 2000
 * ⚡ Модуль для UnicoreCMS: "WebHOOK Discord(Уведомление о заявках в персонал" - 1300
 * ⚡ Модуль для UnicoreCMS: "API для форума IPS" - 2500
+* ⚡ Мод-Плагин: "WorldRender" - 2000
 * ⚡ ~Модуль для UnicoreCMS: "S3 хранилище" -~
 * ⚡ ~Форум внутри UnicoreCMS -~
 * ⚡ ~Модуль для UnicoreCMS: "Модуль скринов с сервера" -~
