@@ -35,17 +35,9 @@ jobs:
       - name: Commit and push README.html to GitHub Pages repository
         run: |
           # Клонируем репозиторий GitHub Pages
-          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Nik497926/nik497926.github.io.git
+          git clone https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/Nik497926/nik497926.github.io.git
           cp README.html nik497926.github.io/
           cd nik497926.github.io
 
           # Настроим Git
           git config --global user.name "GitHub Actions"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Добавим и зафиксируем изменения
-          git add README.html
-          git commit -m "Обновление README.html"
-
-          # Используем правильный токен для аутентификации
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Nik497926/nik497926.github.io.git
