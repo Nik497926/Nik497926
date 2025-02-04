@@ -27,16 +27,25 @@ jobs:
           pandoc README.md -f markdown -t html >> README.html
           echo '</body></html>' >> README.html
 
+      - name: Проверка токена и доступности репозитория
+        run: |
+          echo "Токен доступен: ${{ secrets.GITHUB_TOKEN }}"
+          git remote -v
+
       - name: Commit and push README.html to GitHub Pages repository
         run: |
-          git clone https://github.com/Nik497926/nik497926.github.io.git
+          # Клонируем репозиторий GitHub Pages
+          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Nik497926/nik497926.github.io.git
           cp README.html nik497926.github.io/
           cd nik497926.github.io
+
+          # Настроим Git
           git config --global user.name "GitHub Actions"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Используем GitHub token для аутентификации при push
-          git remote set-url origin https://github.com/Nik497926/nik497926.github.io.git
+
+          # Добавим и зафиксируем изменения
           git add README.html
           git commit -m "Обновление README.html"
-          git push https://github.com/${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/Nik497926/nik497926.github.io.git
+
+          # Используем правильный токен для аутентификации
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Nik497926/nik497926.github.io.git
