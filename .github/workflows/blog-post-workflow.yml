@@ -16,6 +16,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Install pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
       - name: Create README.html from README.md
         run: |
           echo '<!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8"><title>Документация</title></head><body>' > README.html
