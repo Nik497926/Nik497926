@@ -3,10 +3,10 @@ name: Sync README.md to GitHub Pages
 on:
   push:
     branches:
-      - main  # Задача запускается при каждом пуше в основную ветку
+      - main
     paths:
-      - README.md  # Только изменения в README.md будут запускать workflow
-  workflow_dispatch:  # Вручную можно запускать сборку через GitHub интерфейс
+      - README.md
+  workflow_dispatch:  # Позволяет запускать workflow вручную через интерфейс GitHub
 
 jobs:
   sync:
@@ -34,10 +34,11 @@ jobs:
 
       - name: Commit and push README.html to GitHub Pages repository
         run: |
-          # Клонируем репозиторий GitHub Pages
-          git clone https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/Nik497926/nik497926.github.io.git
+          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Nik497926/nik497926.github.io.git
           cp README.html nik497926.github.io/
           cd nik497926.github.io
-
-          # Настроим Git
           git config --global user.name "GitHub Actions"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.html
+          git commit -m "Обновление README.html"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Nik497926/nik497926.github.io.git
