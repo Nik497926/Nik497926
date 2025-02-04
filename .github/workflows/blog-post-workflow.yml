@@ -1,17 +1,19 @@
-name: Sync README to GitHub Pages
+name: Sync README.md to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Или другая основная ветка
+      - main  # Задача запускается при каждом пуше в основную ветку
     paths:
-      - 'README.md'  # Треккинг изменений в README.md
+      - README.md  # Только изменения в README.md будут запускать workflow
+  workflow_dispatch:  # Вручную можно запускать сборку через GitHub интерфейс
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout source repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Create README.html from README.md
@@ -20,19 +22,13 @@ jobs:
           pandoc README.md -f markdown -t html >> README.html
           echo '</body></html>' >> README.html
 
-      - name: Checkout the target GitHub Pages repository
-        uses: actions/checkout@v3
-        with:
-          repository: Nik497926/nik497926.github.io  # Репозиторий GitHub Pages
-          token: ${{ secrets.GITHUB_TOKEN }}  # GitHub token для доступа к репозиторию
-          path: pages_repo  # Путь, в который клонируется репозиторий GitHub Pages
-
-      - name: Copy README.html to GitHub Pages repository
+      - name: Commit and push README.html to GitHub Pages repository
         run: |
-          cp README.html pages_repo/  # Копирование файла в папку GitHub Pages
-          cd pages_repo
+          git clone https://github.com/Nik497926/nik497926.github.io.git
+          cp README.html nik497926.github.io/
+          cd nik497926.github.io
           git config --global user.name "GitHub Actions"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.html
-          git commit -m "Обновление README.html" || echo "Нет изменений"  # Избежим ошибки, если изменений нет
+          git commit -m "Обновление README.html"
           git push
