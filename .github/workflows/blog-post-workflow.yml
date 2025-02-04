@@ -34,6 +34,9 @@ jobs:
           cd nik497926.github.io
           git config --global user.name "GitHub Actions"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Используем GitHub token для аутентификации при push
+          git remote set-url origin https://github.com/Nik497926/nik497926.github.io.git
           git add README.html
           git commit -m "Обновление README.html"
-          git push
+          git push https://github.com/${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/Nik497926/nik497926.github.io.git
