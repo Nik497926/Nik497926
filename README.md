@@ -14,6 +14,7 @@ Web Developer and Designer
 * ⚡ Модуль для UnicoreCMS: "Выдача Админ прав на сервере, через сайт" - 4500
 * ⚡ Модуль для UnicoreCMS: "WebHOOK Discord(Уведомление о заявках в персонал" - 1300
 * ⚡ Модуль для UnicoreCMS: "API для форума IPS" - 2500
+* ⚡ Модуль для UnicoreCMS: "Форум" - 10.000
 * ⚡ Мод-Плагин: "WorldRender" - 2000
 * ⚡ Мод: "CustomTabList - 1.7.10" - 2000
 * ⚡ Мод: "AdvancedChat - 1.7.10" - 4000
