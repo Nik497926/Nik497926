@@ -19,6 +19,7 @@ Web Developer and Designer
 * ⚡ Мод-Плагин: "WorldRender" - 2000
 * ⚡ Мод: "CustomTabList - 1.7.10" - 2000
 * ⚡ Мод: "AdvancedChat - 1.7.10" - 4000
+* ⚡ Мод: "Персонализация - 1.7.10" - 7000
 * ⚡ ~Модуль для UnicoreCMS: "Live(Вывод информации о эфирах)" -~
 * ⚡ ~WebPanelLogs - панель для просмотра логов с серверов -~
 * ⚡ ~Модуль для UnicoreCMS: "S3 хранилище" -~
