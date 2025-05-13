@@ -13,6 +13,7 @@ Web Developer and Designer
 * ⚡ Модуль для UnicoreCMS: "Пополнение через ЮКасса" - 2500
 * ⚡ Модуль для UnicoreCMS: "Пополнение через AAIO" - 2500
 * ⚡ Модуль для UnicoreCMS: "Пополнение через CloudPayments" - 2500
+* ⚡ Модуль для UnicoreCMS: "Пополнение через Lava" - 2500
 * ⚡ Модуль для UnicoreCMS: "Выдача Админ прав на сервере, через сайт" - 4500
 * ⚡ Модуль для UnicoreCMS: "WebHOOK Discord(Уведомление о заявках в персонал" - 1300
 * ⚡ Модуль для UnicoreCMS: "API для форума IPS" - 2500
