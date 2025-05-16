@@ -5,7 +5,6 @@
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=300&section=header&text=UnicoreCMS%202.0&fontSize=90&fontColor=fff&animation=fadeIn&desc=Профессиональная%20система%20управления%20игровыми%20проектами&descSize=25&descAlignY=65)
 
 [![Website](https://img.shields.io/badge/🌐_DEMO-unicorecms2.ru-gradient?style=for-the-badge&labelColor=black&color=0:2b32b2,100:1488cc)](https://demo.unicorecms2.ru/)
-[![Visitors](https://api.visitorbadge.io/api/visitors?path=unicorecms2.ru&countColor=%231488CC&style=flat)](https://demo.unicorecms2.ru/)
 
 </div>
 
@@ -214,16 +213,6 @@ mindmap
 
 <br/>
 
-## 📊 Статистика
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=nik497926&theme=darkhub&no-frame=true&row=1&column=6" />
-  <br/><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=nik497926&theme=dark&hide_border=true&background=0D1117&stroke=1488CC&ring=2B32B2&fire=2B32B2&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=1488CC&sideLabels=1488CC&dates=FFFFFF" />
-</div>
-
-<br/>
-
 ## 📱 Связь
 
 <div align="center">
@@ -236,13 +225,3 @@ mindmap
 
 </div>
 
-<br/>
-
-
-<div align="center">
-
-
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=200&section=footer&text=Создаю%20будущее%20игровых%20проектов&fontSize=40&fontColor=fff&animation=fadeIn)
-  
-</div>
